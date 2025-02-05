@@ -1,0 +1,60 @@
+{
+    "login": {
+        "title": "Log In",
+        "email": "Email",
+        "password": "Password",
+        "log in": "LOG IN",
+        "continue with": "or continue with:",
+        "language": "Language",
+        "select": "Select",
+        "forgot": "I forgot my password",
+        "register": "Sign up"
+    },
+    "forgot password": {
+        "title": "Recover Password",
+        "email": "Email",
+        "recover": "Recover password"
+    },
+    "reset password": {
+        "title": "Enter new password",
+        "new": "New password",
+        "confirm": "Confirm Password",
+        "reset": "Confirm password"
+    },
+    "sign up": {
+        "title": "Sign up",
+        "info": "Your info:",
+        "name": "Your name",
+        "email": "Email",
+        "phone": "Phone number",
+        "site": "URL of your first site:",
+        "url": "Site URL",
+        "notifications": "I confirm that I wish to receive notifications related to downtime and failures of my web sites",
+        "sign up": "Sign up"
+    },
+    "crm": {
+        "title": "Configure your CRM",
+        "title-contacts": "My contacts",
+        "info": "Select:",
+        "button": "Save",
+        "complete": "Complete data:",
+        "conecting": "Connecting to ",
+        "searching": "Search...", 
+    },
+    "mails": {
+        "title": "Generate your email with AI",
+        "creating": "Generating your email through IA, please wait..",
+        "editing": "Edit and correct by recording and detailing what needs to be corrected",
+        "generating": "Use the record button to explain the subject of your email. AI will generate a mail for you",
+        "error": "Please re-record speaking clearly and loudly"
+    },
+    "textract": {
+        "title": "Analyze documents",
+        "doc": "Upload document",
+        "photo": "Take Picture",
+        "see-doc": "See as document",
+        "see-form": "See as form",
+        "process": "Processing..",
+        "no-image": "No image was found"
+    }
+}

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "867064883898",
+    "project_id": "webisio",
+    "storage_bucket": "webisio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867064883898:android:129d5daab82db565e73083",
+        "android_client_info": {
+          "package_name": "io.webis.monitor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "867064883898-kcartjvni7fvb6i4f73qlntt2kvtciak.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.webis.monitor",
+            "certificate_hash": "326a83afba79e1d00d9f690f7e3ac182f484fb99"
+          }
+        },
+        {
+          "client_id": "867064883898-ahkehrkhtb71d4miaghpogbdv283f3ii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLKwa4uK0TUUi_16XY-cv1jLXUc4ttX2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "867064883898-ahkehrkhtb71d4miaghpogbdv283f3ii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+{
+    "login": {
+        "email": "電子郵件",
+        "password": "密碼",
+        "log in": "登錄",
+        "continue with": "或繼續:",
+        "language": "語言",
+        "select": "選擇"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "login": {
+        "title": "Iniciar Sesión",
+        "email": "Correo Electrónico",
+        "password": "Contraseña",
+        "log in": "INICIAR SESIÓN",
+        "continue with": "o continúa con:",
+        "language": "Lenguaje",
+        "select": "Seleccionar",
+        "forgot": "Olvidé mi contraseña",
+        "register": "Registrarme"
+    },
+    "forgot password": {
+        "title": "Recuperar Contraseña",
+        "email": "Correo Electrónico",
+        "recover": "Recuperar contraseña"
+    },
+    "reset password": {
+        "title": "Ingresar nueva contraseña",
+        "new": "Nueva contraseña",
+        "confirm": "Confirmar Contraseña",
+        "reset": "Confirmar contraseña"
+    },
+    "sign up": {
+        "title": "Regístrate",
+        "info": "Tus datos:",
+        "name": "Tu nombre",
+        "email": "Correo Electrónico",
+        "phone": "Número telefónico",
+        "site": "URL de tu primer sitio:",
+        "url": "URL del sitio",
+        "notifications": "Confirmo que deseo recibir notificaciones relacionadas con caídas y fallas de mis sitios web",
+        "sign up": "Registrarme"
+    },
+    "crm": {
+        "title": "Configurar mi CRM",
+        "title-contacts": "Mis contactos",
+        "info": "Seleccionar:",
+        "button": "Guardar",
+        "complete": "Completar datos:",
+        "conecting": "Conectando ",
+        "searching": "Buscar..." 
+    },
+    "mails": {
+        "title": "Genera tu correo electrónico con IA",
+        "creating": "Generando su mail a través de inteligencia artificial...",
+        "editing": "Edite y corrija grabando otro audio detallando lo que necesita corregirse",
+        "generating": "Use el botón de grabar para explicar el asunto de su correo. La IA lo generará para usted",
+        "error": "Por favor, vuelva a grabar hablando claro y alto"
+    },
+    "textract": {
+        "title": "Analice sus documentos",
+        "doc": "Subir documento",
+        "photo": "Tomar foto",
+        "see-doc": "Ver como documento",
+        "see-form": "Ver como formulario",
+        "process": "Procesando..",
+        "no-image": "No hay imagen cargada"
+    }
+}

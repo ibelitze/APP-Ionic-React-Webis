@@ -1,0 +1,17 @@
+{
+	"appId": "io.webis.monitor",
+	"appName": "Webis",
+	"webDir": "build",
+	"bundledWebRuntime": false,
+	"plugins": {
+		"SplashScreen": {
+		  "androidScaleType": "CENTER_CROP"
+		},
+		"GoogleAuth": {
+			"scopes": ["profile", "email"],
+			"serverClientId": "867064883898-ahkehrkhtb71d4miaghpogbdv283f3ii.apps.googleusercontent.com",
+			"forceCodeForRefreshToken": true
+		}
+	  }
+}
+
