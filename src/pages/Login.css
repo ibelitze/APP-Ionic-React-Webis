@@ -1,0 +1,31 @@
+.webis-logo {
+    width: 40%;
+    margin: auto;
+}
+
+.webtiginoso-logo {
+    width: 15%;
+    margin: auto;
+}
+
+.lines {
+    display: flex;
+    align-items: center;
+
+    &::before,
+    &::after {
+        content: "";
+        flex-grow: 1;
+        height: 1px;
+        background-color: lightgrey;
+    }
+
+    >* {
+        padding: 0 15px;
+    }
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+}

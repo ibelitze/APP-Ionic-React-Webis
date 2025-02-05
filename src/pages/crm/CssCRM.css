@@ -1,0 +1,360 @@
+
+
+/* GENERALES - COL ROW */
+
+.md > body {
+	background-color: #fff !important;
+	--ion-background-color: #fff !important;
+}
+.md-centered {
+	align-items: center;
+    justify-content: flex-end;
+    display: flex;
+}
+.md-centered2 {
+	align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.md-padding {
+	padding: 15px;
+}
+.md-margin {
+	margin: 15px;
+}
+#background-content {
+    left: 0px;
+    right: 0px;
+    top: calc(var(--offset-top) * -1);
+    bottom: calc(var(--offset-bottom) * -1);
+    position: absolute;
+    --background: #fff;
+    background: var(--background);
+}
+ion-row {
+	align-items: center;
+}
+
+
+/* HEADER CSS - CRM */
+
+.row-header {
+	border-bottom: 1px solid #535252;
+	padding-bottom: 7px;
+}
+.header-sticky {
+	background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    border-bottom: 1px solid #aeaeae;
+}
+.sticky-content {
+	width: 100%;
+}
+.searchbar-input-container.sc-ion-searchbar-md {
+	margin: 10px;
+}
+.webis-horizontal {
+	margin: 7px 15px 4px 0px;
+}
+.back-button {
+	color: #2AD7E9;
+}
+.arrow-container {
+	padding-top: 20px;
+	padding-left: 10px;
+	display: flex;
+}
+.titulo {
+	text-align: left;
+	font-weight: 800;
+	margin: 7px 20px;
+}
+.seleccionar {
+	color: #2AD7E9;
+	text-align: left;
+	font-weight: 800;
+	margin: 0;
+	padding-left: 20px;
+}
+
+
+/* CRM - LISTAS, ICONOS Y CONTACTOS CSS */
+
+.list-crm {
+	display: flex;
+	text-decoration: none;
+	width: 100%;
+	justify-content: center;
+    align-items: center;
+}
+.crm-icon {
+	width: 50px;
+	height: 50px;
+	margin-bottom: 3px;
+}
+.crm-item {
+	width: 100%;
+	background: #fff;
+}
+.crm-name {
+	width: 75%;
+	margin-left: 5px;
+	display: flex;
+	align-items: center;
+	padding-left: 12px;
+}
+.crm-button {
+	display: flex;
+	align-items: center;
+	color: #a3a1a1;
+}
+.crm-contact {
+	width: 100%;
+	text-align: left;
+	height: 40px;
+	align-content: center;
+    display: grid;
+    margin: 0px 10px;
+}
+.contact-icon {
+	color: #a3a1a1;
+	width: 30px;
+	height: 30px;
+}
+.icon-hubspot {
+	background-image: url("../../../public/assets/icons/hubspot-icon.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.icon-brevo {
+	background-image: url("../../../public/assets/icons/brevo-icon.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.icon-salesforce {
+	background-image: url("../../../public/assets/icons/salesforce-icon.png");
+	background-position: center;
+	background-size: 100% 70%;
+    background-repeat: no-repeat;
+}
+.icon-dynamics {
+	background-image: url("../../../public/assets/icons/dynamics-icon.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.icon-zoho {
+	background-image: url("../../../public/assets/icons/zoho-icon.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+.button-true {
+	color: #2AD7E9;
+}
+.crm-name-true {
+	color: #2AD7E9;
+	font-weight: 600;
+}
+.crm-acordion {
+	width: 100%;
+}
+.ion-padding {
+	color: #000;
+}
+
+.item-native {
+	background: #fff;
+}
+
+
+/* MENU ACTIONS - POPUPS */
+
+.bottom-sticky {
+	background-color: #fff;
+    position: absolute;
+    bottom: 0px;
+    z-index: 9999;
+    border-top: 1px solid #aeaeae;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+}
+ion-popover {
+	--offset-x: 0%;
+    --offset-y: -13%;
+    --width: 270px;
+}
+.content-menu-crm {
+	margin-right: 15px;
+	margin-left: 10px;
+}
+.button-select-contact {
+	--background: #ffffff;
+    --color: #6e6e6e;
+    --box-shadow: none;
+}
+.container-dismiss {
+	width: 100%;
+    display: flex;
+/*    align-items: center;
+    justify-content: end;
+    padding-right: 15px;*/
+    color: #c9c8c8;
+    padding: 6px;
+
+    ion-text {
+    	margin-right: 10px;
+    }
+}
+.popup-content ion-text {
+	color: #939393;
+}
+.popup-email {
+	--offset-x: 0%;
+    --offset-y: -25%;
+    --width: 350px;
+    --keyboard-offset: none !important;
+}
+.popup-email-with-text {
+	--offset-x: 0%;
+    --offset-y: -45%;
+    --width: 350px;
+    --keyboard-offset: none !important;
+}
+.crm-messages {
+	color: #6e6e6e;
+}
+.ionicon-big {
+	font-size: 64px;
+}
+
+
+
+/* BOTON GRABAR AUDIO - IA */
+
+.button-recordless {
+	--background: #f9f9f9;
+    --border-radius: 40px;
+    height: 90px;
+    width: 90px;
+
+    ion-icon {
+    	font-size: 55px;
+    	color: #2AD7E9;
+    }
+}
+
+.button-recording {
+	--background: #010B40;
+    --border-radius: 40px;
+    height: 90px;
+    width: 90px;
+
+    ion-icon {
+    	font-size: 55px;
+    	color: #f9f9f9;
+    }
+}
+
+
+/* BURBUJA STYLE - CORREO ELECTRONICO */
+
+.bubble {
+    color: #3d3d3d;
+    font-size: 17px;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid #dddddd;
+    border-radius: 6px 25px 25px 25px;
+}
+.bubble-actions {
+	display: flex;
+}
+.bubble-inside {
+	width: 80%;
+	display: flex;
+    justify-content: end;
+}
+.bubble-text {
+	white-space: break-spaces;
+}
+.bubble-icon {
+	font-size: 40px !important;
+	color: #010B40;
+}
+.button-editar-mail {
+	--background: #cacaca;
+    --color: #010B40;
+    --box-shadow: none;
+}
+
+
+
+/* BOTON ENVIAR CORREO ELECTRÓNICO */
+
+.button-send-email {
+	--background: #010B40;
+    --color: #fff;
+    --box-shadow: none;
+}
+.button-send-email-active {
+	--background: #f2f2f2;
+    --color: #6e6e6e;
+    --box-shadow: none;
+}
+
+
+/* SPINNER - LOADING */
+
+.loading-message {
+	text-align: center;
+	font-size: 12px;
+}
+.loading-div {
+	text-align: center;
+	padding: 15px;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 3px solid #010B40;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+.loader::after {
+    content: '';  
+ 	box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-bottom-color: #2AD7E9;
+}
+    
+@keyframes rotation {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+iframe#webpack-dev-server-client-overlay{display:none!important}

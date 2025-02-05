@@ -3,6 +3,8 @@
 
 Proyecto de APP con Ionic/React, para móviles. Esta app era un proyecto experimental para llevar la inteligencia artificial de manera sencilla e intuitiva a cada smartphone, con conexión a diferentes microservicios o APIs (también en mi repositorio), entre ellos: servicios de CRM para manejar diferentes clientes/usuarios, conversión de voz a texto para envío de correos, identificación de texto en imágenes y fotos y conversión de ésos textos a digital (usando servicio de Textract de AWS), chat de inteligencia artificial (texto y voz), entre otros servicios (inherentes a los CRM).
 
+Con el servicio i18next, se puede cambiar de idioma la app. Hasta el último momento de desarrollo (2024) se podía cambiar entre español e inglés.
+
 ## Instalar el repositorio
 
 Descarga el repositorio. Luego, para seguir con la siguiente parte de la instalacion abre git bash en la carpeta `app-ionic-react`

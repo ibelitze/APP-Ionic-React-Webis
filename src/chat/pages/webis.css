@@ -1,0 +1,59 @@
+#main-chat-content > ion-list.list-md{
+    background: #FAFAFA;
+}
+
+#main-chat-content > ion-list.list-md > div.chat-bubble{
+    background:white;
+    border: 1px solid #E5E5E5;
+    box-shadow: #EBEBEB 0px 0px 16px -5px
+}
+
+#main-chat-content > ion-list.list-md > div.chat-bubble.bubble-received > [id*='chatText']{
+    color: black!important;
+    position: relative;
+}
+
+
+ion-infinite-scroll-content{
+    min-height:1px!important;
+}
+
+#chat-footer{
+    background:#F2F2F2!important;
+}
+.sc-ion-textarea-md{
+    background:#FFFFFF!important;
+}
+
+.chat-footer ion-textarea{
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF!important;
+}
+
+.scroll{
+    width: 250px!important;
+}
+
+.color-blue{
+    color:rgb(42, 215, 233);
+}
+
+.color-blue2{
+    color:#3880ff;
+}
+
+ion-list{
+    background-color: #EDEDED!important;
+}
+
+.bubble-sent{
+    background-color: #d9fdd3!important;;
+}
+.bubble-received{
+    background-color:rgb(42, 215, 233); ;
+}
+
+
+.background-content{
+    background-color: #EDEDED!important;
+}

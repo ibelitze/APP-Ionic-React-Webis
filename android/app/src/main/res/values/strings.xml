@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Webis</string>
+    <string name="title_activity_main">Webis</string>
+    <string name="package_name">io.webis.monitor</string>
+    <string name="custom_url_scheme">io.webis.monitor</string>
+    <string name="com.crashlytics.android.build_id">1</string>
+    <string name="server_client_id">867064883898-ahkehrkhtb71d4miaghpogbdv283f3ii.apps.googleusercontent.com</string>
+</resources>
